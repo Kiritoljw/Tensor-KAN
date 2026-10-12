@@ -151,3 +151,8 @@ The LM/GDLM implementation follows the geodesic-acceleration formulation
 described by M. K. Transtrum and J. P. Sethna, *Improvements to the
 Levenberg--Marquardt algorithm for nonlinear least-squares minimization*,
 arXiv:1201.5885.
+
+## License
+
+This project is released under the MIT License. See [LICENSE](LICENSE) for
+details.
