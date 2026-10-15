@@ -1,13 +1,7 @@
 # Tensor-KAN
 
 Tensor-KAN provides a PyTorch implementation of the Tensor
-Kolmogorov--Arnold Neural Network (TKANN) for elliptic interface problems. The
-initial reproducibility release contains the core model and optimizer code
-together with one self-contained Gaussian-mixture interface example.
-
-Only source code needed to train and evaluate this example is included. The
-repository does not contain generated results, pretrained checkpoints, or
-cluster-specific submission scripts.
+Kolmogorov--Arnold Neural Network (TKANN) for elliptic interface problems.
 
 ## Highlights
 
@@ -68,9 +62,9 @@ reproduce the reported accuracy:
       --optimizer-type adam \
       --iterations 1 \
       --k 3 \
-      --grid-size 3 \
-      --spline-order 2 \
-      --rank 2 \
+      --grid-size 15 \
+      --spline-order 6 \
+      --rank 5 \
       --kan-hidden 2 \
       --kan-depth 1 \
       --n-inner 32 \
@@ -146,11 +140,6 @@ manuscript:
 
 > *A Tensor Kolmogorov--Arnold Neural Network for Solving Elliptic Interface
 > Problems* (manuscript under review).
-
-The LM/GDLM implementation follows the geodesic-acceleration formulation
-described by M. K. Transtrum and J. P. Sethna, *Improvements to the
-Levenberg--Marquardt algorithm for nonlinear least-squares minimization*,
-arXiv:1201.5885.
 
 ## License
 
